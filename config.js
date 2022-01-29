@@ -1,31 +1,31 @@
 module.exports = {
   bot: {
-    token: "", //Bot Token from https://discord.com/developers/applications
-    prefix: "!", //Bot Prefix
-    owners: ["740947753135243354", "767726828311543820"], //Bot Onwer ID
+    token: "OTAxOTY3MDc3MDUxNTk2ODMw.YXXkTA.a6Td2uEpzXZr9M80Fo3bRDWh-Z8", //Bot Token from https://discord.com/developers/applications
+    prefix: "=", //Bot Prefix
+    owners: ["404852972154257411"], //Bot Onwer ID
     maintenance: false,
     mongourl:
-      "", //https://mongodb.com/cloud/atlas/register
+      "mongodb+srv://admin:admin@tnhazem.zfxio.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", //https://mongodb.com/cloud/atlas/register
     invite:
-      "", //Link Invite Bot
+      "https://discord.com/api/oauth2/authorize?client_id=901967077051596830&permissions=8&scope=bot%20applications.commands", //Link Invite Bot
     bot_add_description:
       "You've just added me to **{guild}**.\nThank you for adding me to your server",
     bot_remove_description:
       "You got me out on the **{guild}** server, sorry if there's a mistake on me"
   },
   status: {
-    stats: "", //Status Bot <idle, online, dnd , invisible>
-    type: "", //Playing Bot <PLAYING, WATCHING , and others>
-    name: "" //Status Playing
-  },
+    stats: "online", //Status Bot <idle, online, dnd , invisible>
+    type: "watching", //Playing Bot <PLAYING, WATCHING , and others>
+    name: "testing" //Status Playing
+  },//Unfinished Dashboard
   dash: {
-    secret: "", //SECRET Bot
-    id: "", //ID Bot
-    url: "" //URL
+    secret: "FNcqETNT3BRoX9kIn6qJ7qcztoLZVc2y", //SECRET Bot
+    id: "929032019076341790", //ID Bot
+    url: "https://PREMIUM-DGH-BOT-V3-1.coolboyytr.repl.co" //Login URL
   },
   server: {
-    id: "", //Server ID
-    invite: "https://discord.gg/3grkbgFCFs" //Server Support
+    id: "928980840975847424", //Server ID
+    invite: "https://discord.gg/8matjVVsKS" //Server Support
   },
   image: {
     welcome:
@@ -35,24 +35,25 @@ module.exports = {
     level:
       "https://cdn.glitch.com/2337366e-e123-49db-827b-3e28e03e7910%2Fimages.jpeg?1623811398590", //Image LevelCard
     help:
-      "https://media.discordapp.net/attachments/806082492498706442/900573349577633802/standard_1.gif", //Image Cmd Help.js
+      "https://cdn.discordapp.com/attachments/829696536396955649/856380297851830272/standard_6.gif", //Image Cmd Help.js
     guild_add:
       "https://cdn.discordapp.com/attachments/829696536396955649/856381256379400202/20210621_105311.jpg", //Image Guild Add
-    guild_remove: "",
     leaderboard:
       "https://i.pinimg.com/736x/d1/00/7b/d1007b46e6175f49f53712f16e4f6a3c.jpg" //Image Leaderboard Card
   },
   mod: {
     muted_defauld: "Muted", // bot will make Roles muted for members who got muted
-    limit_warn: 3, //bot will kick member if it has 3 warns
-    limit_muted: 5 //bot will kick member if it has 5 Muted
+
+    //Coming soon auto mod!
+    limit_warn: 0, //bot will kick member if it has 3 warns
+    limit_muted: 0 //bot will kick member if it has 5 Muted
   },
   logs: {
     boton: "", //Channel ID Bot Online
     botadd: "", //Channel ID Bot Add In Guild
     botdel: "", //Channel ID Bot Remove in Guild
-    botreport: "",
-    boterror: ""
+    botlogin: "there is not any yet", //Channel ID User Login
+    botreport: ""
   },
   giveaway: {
     default: {
